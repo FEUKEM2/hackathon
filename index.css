@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: opx 0;
+}
+
+header {
+    background-color: #b9c0cc;
+    color:;
+    transition: background-color 0.5s;
+}
+
+header:hover {
+    background-color: #0a3c81; 
+}
+
+header nav {
+    background-color: transparent; 
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    background-color: transparent; 
+    display: inline;
+    margin-left: 0px;
+}
+
+header ul li a {
+    color: black; 
+
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+}
+
+section#hero {
+    background-color: #F8F9FA;
+    text-align: center;
+    padding: 100px 0;
+}
+
+section#hero h1 {
+    color: green;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+section#container,#features h2 {
+    color: green;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+section#container,#features p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4285F4;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn1 {
+    display: inline-block;
+    background-color: #104db6;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5%;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #357AE8;
+}
+
+div img {
+    height: 400px;            <i class="fab fa-apple">app-store</i>  <br>
+
+}
+
+.fade-in img {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in img {
+    opacity: 1;
+    transform: scale(1);
+}
+
+@keyframes magnetic {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.container , .container , .container , . {
+    animation: magnetic 2s infinite;
+}
+
+@keyframes magnetic-y {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
